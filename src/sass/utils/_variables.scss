@@ -1,0 +1,22 @@
+$color-blue: #2196f3;
+$color-bg-secondary: #f5f4fa;
+$color-white: #ffffff;
+$color-black: #212121;
+$color-text-primary: #757575;
+$color-ico: #AFB1B8;
+$color-border: #EEEEEE;
+$color-header-border: #ECECEC;
+$color-baner: #2f303a;
+$color-btn-hover: #188CE8;
+
+$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+/* Flex margin */
+// $set-margin: 30px;
+// $set-margin-ico: 10px;
+
+:root {
+    --set-margin: 30px;
+    --set-margin-ico: 10px;
+    --set-item: 4;
+}
