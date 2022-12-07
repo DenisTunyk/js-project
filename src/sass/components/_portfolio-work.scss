@@ -44,6 +44,7 @@
 
 .porfolio-work__overlay {
     position: absolute;
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
     bottom: 0;
@@ -62,7 +63,7 @@
 
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
-    opacity: 0;
+    opacity: 1;
 
     transition: opacity 250ms $timing-function;
     transition: transform 250ms $timing-function;
@@ -122,4 +123,7 @@
 
     height: 100%;
     overflow: auto;
+
+
 }
+
