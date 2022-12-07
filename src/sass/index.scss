@@ -1,6 +1,11 @@
 @import './utils/variables';
+@import './utils/mixins';
 
 @import './base/container';
 @import './base/base.scss';
 @import './base/section';
+@import './base/card-set';
+
+@import './components/portfolio-work';
+@import './components/filter';
 

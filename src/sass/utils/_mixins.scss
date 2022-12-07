@@ -1,0 +1,12 @@
+@mixin card-set($set-margin) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * $set-margin);
+    margin-top: calc(-1 * $set-margin);
+}
+
+@mixin card-set__item($set-margin, $item) {
+    margin-left: $set-margin;
+    margin-top: $set-margin;
+    flex-basis: calc(100% / $item - $set-margin);
+}

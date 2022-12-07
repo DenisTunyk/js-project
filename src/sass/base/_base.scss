@@ -1,0 +1,49 @@
+//общим шаблоном проекта. Там вы можете найти файл сброса,
+//некоторые типографские правила
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: $color-text-primary;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%; //картинка тягнеться не більше її оригінального розміру
+    height: auto;
+
+    //точно по центру
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
